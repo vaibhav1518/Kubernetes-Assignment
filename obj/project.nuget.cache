@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GYjkTvgyE2xQLjCJxKfeW0T0HV5tuPV160djgtMMNxmYY/Cbr8dB8joO0EpmhBY4pJx6mXCaTaRujfWgGOXx6g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vaibhavsoni\\source\\repos\\KubernetesAssignment\\KubernetesAssignment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vaibhavsoni\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\vaibhavsoni\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\vaibhavsoni\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
+    "C:\\Users\\vaibhavsoni\\.nuget\\packages\\swashbuckle.aspnetcore\\6.7.3\\swashbuckle.aspnetcore.6.7.3.nupkg.sha512",
+    "C:\\Users\\vaibhavsoni\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.7.3\\swashbuckle.aspnetcore.swagger.6.7.3.nupkg.sha512",
+    "C:\\Users\\vaibhavsoni\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.7.3\\swashbuckle.aspnetcore.swaggergen.6.7.3.nupkg.sha512",
+    "C:\\Users\\vaibhavsoni\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.7.3\\swashbuckle.aspnetcore.swaggerui.6.7.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,48 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubernetes-assignment-deployment
+  annotations:
+    kubernetes.io/change-cause: "Initial Deployment"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kubernetes-assignment
+  template:
+    metadata:
+      labels:
+        app: kubernetes-assignment
+    spec:
+      containers:
+      - name: kubernetes-assignment-container
+        image: vaibhavsoni17/kubernetesassignment:v1
+        ports:
+        - containerPort: 80
+          name: http-web-svc
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits: 
+            cpu: 200m
+            memory: 200Mi
+        env:
+        - name: ASPNETCORE_URLS
+          value: http://+:80 
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-lb-service
+spec: 
+  selector: 
+    app: kubernetes-assignment
+  ports:
+    - name: kubernetes-assignment-port
+      protocol: TCP
+      port: 8082
+      targetPort: 80
+  type: LoadBalancer

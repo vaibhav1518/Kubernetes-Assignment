@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  kubernetesassignment:
+    container_name: kubecontainer
+    image: ${DOCKER_REGISTRY-}kubernetesassignment
+    build:
+      context: .
+      dockerfile: Dockerfile
